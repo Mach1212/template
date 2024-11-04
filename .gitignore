@@ -1,0 +1,5 @@
+.dioxus
+dist
+target
+tailwind.css
+assets/tailwind.css
