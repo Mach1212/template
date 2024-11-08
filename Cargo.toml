@@ -1,7 +1,7 @@
 cargo-features = ["codegen-backend"]
 
 [package]
-name = "template"
+name = "frontend"
 version = "0.1.0"
 authors = ["Mach1212 <maciej.pruchnik@gmail.com>"]
 edition = "2021"
@@ -19,10 +19,7 @@ futures = "0.3.31"
 async-recursion = "1.1.1"
 chrono = { version = "0.4.38", features = ["serde"] }
 serde_json = "1.0.132"
-reqwest = { version = "0.12.9", default-features = false, features = [
-  # "rustls-tls",
-  "json",
-] }
+reqwest = { version = "0.12.9", default-features = false, features = ["json"] }
 manganis = "0.2.2"
 
 [features]

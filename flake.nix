@@ -24,14 +24,18 @@
         devShells.default = with pkgs;
           mkShell {
             buildInputs = [
-              openssl
               pkg-config
               tailwindcss
+              openssl
+              perl
+              mold
+              lld
+              clang
               (
                 rust-bin.selectLatestNightlyWith (toolchain:
                   toolchain.default.override {
                     extensions = [
-                      # "rust-src"
+                      "rust-src"
                       "rust-std"
                       "rustc-codegen-cranelift-preview"
                       "rust-analyzer-preview"

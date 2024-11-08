@@ -1066,6 +1066,21 @@ dependencies = [
 ]
 
 [[package]]
+name = "frontend"
+version = "0.1.0"
+dependencies = [
+ "async-recursion",
+ "chrono",
+ "dioxus",
+ "dioxus-logger",
+ "futures",
+ "manganis",
+ "reqwest 0.12.9",
+ "serde",
+ "serde_json",
+]
+
+[[package]]
 name = "futures"
 version = "0.3.31"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2725,21 +2740,6 @@ dependencies = [
  "once_cell",
  "rustix",
  "windows-sys 0.59.0",
-]
-
-[[package]]
-name = "template"
-version = "0.1.0"
-dependencies = [
- "async-recursion",
- "chrono",
- "dioxus",
- "dioxus-logger",
- "futures",
- "manganis",
- "reqwest 0.12.9",
- "serde",
- "serde_json",
 ]
 
 [[package]]

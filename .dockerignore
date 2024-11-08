@@ -1,0 +1,10 @@
+.cargo
+.dioxus
+.git
+.dockerignore
+.gitignore
+*.br
+README.md
+target/
+build_n_deploy.sh
+
