@@ -1,2 +1,6 @@
-docker build . --tag mach12/tmp:frontend &&
-  docker push mach12/tmp:frontend
+TAG=mach12/tmp:frontend
+docker login &&
+  docker buildx build \
+    --platform linux/amd64 \
+    --tag $TAG . &&
+  docker push $TAG
