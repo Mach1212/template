@@ -2,9 +2,6 @@
 
 use dioxus::prelude::*;
 use dioxus_logger::tracing;
-use manganis::mg;
-
-const TAILWIND_URL: &str = mg!(file("./assets/tailwind.css"));
 
 #[derive(Clone, Routable, Debug, PartialEq, serde::Serialize, serde::Deserialize)]
 enum Route {

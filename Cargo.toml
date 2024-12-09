@@ -20,7 +20,6 @@ async-recursion = "1.1.1"
 chrono = { version = "0.4.38", features = ["serde"] }
 serde_json = "1.0.132"
 reqwest = { version = "0.12.9", default-features = false, features = ["json"] }
-manganis = "0.2.2"
 
 [features]
 default = []
