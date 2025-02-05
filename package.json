@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  },
+  "scripts": {
+    "start": "tsx src/index.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@types/node": "^22.13.1",
+    "dotenv": "^16.4.7",
+    "lodash": "^4.17.21",
+    "pino": "^9.6.0",
+    "pino-pretty": "^13.0.0",
+    "tsx": "^4.19.2"
+  }
+}
